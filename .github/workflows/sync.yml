@@ -28,11 +28,11 @@ jobs:
           upstream_sync_repo: ccbikai/Sink
           
           # 2. 填原始分支 (注意区分 master 或 main)
-          upstream_sync_branch: main
+          upstream_sync_branch: master
           
           # ▲▲▲▲▲▲▲▲▲▲ 只需要改这上面两行 ▲▲▲▲▲▲▲▲▲▲
 
-          target_sync_branch: main
+          target_sync_branch: master
           target_repo_token: ${{ secrets.PAT }} # 您的密钥还在，直接用
           test_mode: false
 
